@@ -1,0 +1,8 @@
+apiVersion: demo.mujtaba.dev/v1
+kind: Website
+metadata:
+  name: my-site
+  namespace: apache
+spec:
+  image: httpd:latest
+  port: 80
